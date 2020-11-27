@@ -1,65 +1,78 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 /* header*/
 header {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    align-items: center;
-    padding: 5px 20px;
-    border-bottom: 1px solid #e2e2e2;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    background: white;
-    
-  }
-  
-  header .nav-start {
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-  }
-  
-  header a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-  }
-  header a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  header .nyLogo {
-    justify-self: center;
-}
-   
-  header .nyLogo a:hover {
-    cursor: pointer;
-  }
-
-  header .nyLogo img{
- width:200px;       
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background: white;
 }
 
-  header .nav-end {
-    justify-self: end;
-  }
-  
-  .btn {
-    background: #577c95;
-    color: white;
-    padding: 8px 8px 5px 8px;
-    border-radius: 4px;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+header .nav-start {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+header .nav-start button {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+header .nav-start button:hover {
+  background-color: #f8f2f2;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header .nyLogo {
+  justify-self: center;
+}
+
+header .nyLogo a:hover {
+  cursor: pointer;
+}
+
+header .nyLogo img {
+  width: 200px;
+}
+
+header .nav-end {
+  justify-self: end;
+}
+
+.btn {
+  background: #577c95;
+  color: white;
+  padding: 8px 8px 5px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #42667e;
+}
+/* End Header */
+/*Main */
+
+/*End Main*/
